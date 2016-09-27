@@ -1,7 +1,7 @@
 /**
  * Created by jonathanleczner on 9/27/16.
  */
-public class ColorfulThing {
+public class ColorfulThing implements Thing{
     private Color color;
 
     public enum Color {BLUE, RED, GREEN, YELLOW, PURPLE}
